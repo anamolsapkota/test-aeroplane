@@ -1,0 +1,4 @@
+AuthUserFile "/services/users/zfh4p1/anasap32/www/web.anamolsapkota.com.np/.htaclu"
+AuthName Members
+AuthType Basic
+Require valid-user
