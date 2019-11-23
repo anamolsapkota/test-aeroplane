@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+	<title>Workshop on Web Designing</title></head>
+	<h1>HTML tags</h1>
+	<p>This is a list of tags used in <a href="#"> HTML</a> language. Each tag starts with a tag opener (a less than sign) and ends with a tag closer (a greater than sign). Many tags have corresponding closing tags which are identical except for a slash after the tag opener. (For example, the <a href="#">TITLE</a> tag.)</p>
+
+	<p>Some tags take parameters, called attributes. The attributes are given after the tag, seperated by spaces. Certain attributes have an effect simply by their presence, others are followed by an equals sign and a value. (See the <a href="#">Anchor</a> tag, for example). The names of tags and attributes are not case sensitive: they may be in lower, upper or mixed case with exactly the same meaning. (In this document they are generally represented in upper case.)<br />
+		<br />
+	Currently HTML documents are transmitted without the normal SGML framing tags, but if these are included parsers will ignore them.</p>
+
+	<h2>Title</h2>
+	<p>The title of a documentis given between title tags:</p>
+	<code style="margin-left:50px"><<noinclude></noinclude>TITLE> ... <<noinclude></noinclude>/TITLE></code>
+	<p>The text between the opening and the closing tags is a title for the hypertext node. There should obly be one title in any node. It should identify the content of the node in a fairly wide context, and should ideally fit on one line.</p>
+	<p>The tile is not strictly part of the text of the document but is an attribute of the node. It may not contain anchors, paragraph marks, or highlighting. The title may be used to identify the node in a history list, to label the window displaying the node, etc. It is normally displayed in the text of a document itself. Contrast titles with <a href="#">headings</a>.</p>
+	<h2>Next ID</h2>
+	<p>Obsolete: NeXT Browser only. May be ignored. This tag takes a simple attribute which is the number of the next document-wide numeric identifier to be allocated (not good SGML). Note that when modifying a document, old anchor ids should not be reused, as there may be references stored elsewhere which points to them. This is read and gathered by hypertext editors. Human writers of HTML usually use mnemonic alpha identifiers. Browser software may ignore this tag. Example of use:</p>
+	<code style="margin-left:50px"><<noinclude></noinclude>NEXTID 27></code>
+</body>
+</html>
