@@ -1,0 +1,51 @@
+*{
+	font-family: Ubuntu;
+	background-color: #dedede;
+}
+table {
+	width: 100%;
+	height: 100%;
+	border: solid 2px;
+}
+th,td {
+	border: solid 2px;
+}
+a {
+	text-decoration: none;
+	background-color: #efefef;
+}
+.title {
+	font-family: Ubuntu;
+	font-size: 60px;
+	font-weight: 1000;
+	height: 20%;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #efefef;
+}
+.navlink {
+	height: 5%;
+	text-align: center;
+	font-weight: 800;
+	background-color: #efefef;
+}
+.navlink a {
+	text-transform: uppercase;
+}
+.link, .link * {
+	vertical-align: top;
+	text-align: center;
+	line-height: 40px;
+	background-color: #efefef;
+}
+.content {
+	height: 70%;
+	vertical-align: top;
+	padding: 10px;
+}
+.active {
+	color:green;
+}
+.copyright {
+	text-align: center;
+}
