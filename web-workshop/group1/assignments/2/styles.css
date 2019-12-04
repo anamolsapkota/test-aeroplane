@@ -1,6 +1,6 @@
 *{
 	font-family: Ubuntu;
-	background-color: #dedede;
+	background-color: black;
 }
 .tbl {
 	width: 100%;
@@ -19,9 +19,8 @@ input {
 }
 
 .button {
-	background-color: green;
-	color: white;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 .title {
@@ -34,17 +33,16 @@ input {
 	background-color: black;
 	color: white;
 }
-.navlink {
+.navlink, .navlink *{
 	height: 5%;
+	text-transform: uppercase;
 	text-align: center;
 	font-weight: 800;
-	background-color: black;
+	background-color: #654321;
 	color: white;
 }
-.navlink a {
+td.link b {
 	text-transform: uppercase;
-	color: white;
-	background-color: black;
 }
 .link, .link * {
 	vertical-align: top;
@@ -59,9 +57,14 @@ input {
 	vertical-align: top;
 	padding: 10px;
 	overflow: hidden;
+	background-color: white;
+}
+.content *{
+	background-color: white;
+	color: black;
 }
 .active {
-	color:green;
+	color: #66ff00;
 }
 .copyright, .copyright b {
 	text-align: center;
