@@ -34,7 +34,8 @@ input {
 	font-weight: 1000;
 	height: 20%;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
+	padding-left: 10%;
 	background-color: #003954;
 	color: white;
 }
