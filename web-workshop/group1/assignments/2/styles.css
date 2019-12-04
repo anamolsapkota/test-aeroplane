@@ -1,6 +1,7 @@
 *{
 	font-family: Ubuntu;
 	background-color: #dedede;
+	overflow: hidden;
 }
 .tbl {
 	width: 100%;
@@ -31,22 +32,28 @@ input {
 	height: 20%;
 	text-transform: uppercase;
 	text-align: center;
-	background-color: #efefef;
+	background-color: black;
+	color: white;
 }
 .navlink {
 	height: 5%;
 	text-align: center;
 	font-weight: 800;
-	background-color: #efefef;
+	background-color: black;
+	color: white;
 }
 .navlink a {
 	text-transform: uppercase;
+	color: white;
+	background-color: black;
 }
 .link, .link * {
 	vertical-align: top;
 	text-align: center;
 	line-height: 40px;
-	background-color: #efefef;
+	background-color: black;
+	color: white;
+	width:20%;
 }
 .content {
 	height: 70%;
@@ -56,12 +63,12 @@ input {
 .active {
 	color:green;
 }
-.copyright {
+.copyright, .copyright b {
 	text-align: center;
+	color: white;
+	background-color: black;
 }
-.signup {
-	margin-left: 20%;
-}
+
 .signup td{
 	line-height: 3;
 	vertical-align: middle;
@@ -75,5 +82,15 @@ input {
 }
 
 .text, .password {
-	width: 100%;
+/*	width: 100%;*/
 }
+ legend {
+ 	text-transform: capitalize;
+ 	font-size: 20px;
+ 	font-weight: 1000;
+ }
+
+ textarea {
+ 	width: 100%;
+ 	background-color: #ffffff;
+ }
