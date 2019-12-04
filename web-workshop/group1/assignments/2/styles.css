@@ -18,9 +18,11 @@ input {
 	background-color: #ffffff;
 }
 
-.button {
+.button, button{
 	font-size: 16px;
 	font-weight: bold;
+	background-color: green;
+
 }
 
 .title {
@@ -41,6 +43,9 @@ input {
 	background-color: #654321;
 	color: white;
 }
+.navlink a:hover {
+	color: #1974d2;
+}
 td.link b {
 	text-transform: uppercase;
 }
@@ -51,6 +56,9 @@ td.link b {
 	background-color: black;
 	color: white;
 	width:20%;
+}
+.link a:hover {
+	color: #1974d2;
 }
 .content {
 	height: 70%;
@@ -96,4 +104,13 @@ td.link b {
  textarea {
  	width: 100%;
  	background-color: #ffffff;
+ }
+
+ ul {
+ 	line-height: 2;
+ }
+
+ li a:hover, button:hover, .button:hover {
+ 	color: #1974d2;
+ 	font-size: 18px;
  }
