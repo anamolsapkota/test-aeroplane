@@ -36,26 +36,26 @@
 									<table>
 										<tr>
 											<th>Your name:</th>
-											<td colspan="3"><input class="text" type="text" name="Your name" /></td>
+											<td colspan="3"><input class="text" type="text" name="Your name" placeholder="Enter your name" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>E-mail:</th>
-											<td colspan="3"><input class="text" type="email" name="Your E-mail" /></td>
+											<td colspan="3"><input class="text" type="email" name="Your E-mail" placeholder="Enter your email" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>Phone No.:</th>
-											<td colspan="3"><input class="text" type="number" name="Phone number" /></td>
+											<td colspan="3"><input class="text" type="number" name="Phone number" placeholder="Enter your phone number" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>Sex:</th>
-											<td><input type="radio" name="sex" value="Male"> Male</input></td>
-											<td><input type="radio" name="sex" value="Female"> Female</input></td>
-											<td><input type="radio" name="sex" value="Other"> Other</input></td>
+											<td><input type="radio" name="sex" value="Male" required="yes" checked="checked"> Male</input></td>
+											<td><input type="radio" name="sex" value="Female" required="yes"> Female</input></td>
+											<td><input type="radio" name="sex" value="Other" required="yes"> Other</input></td>
 										</tr>
 										<tr>
 											<th>Country:</th>
 											<td colspan="3">
-												<select name="dropdown">
+												<select name="dropdown" required="yes">
 													<option value="India"> India </option>
 													<option value="Nepal" selected> Nepal </option>
 													<option value="China"> China </option>
@@ -68,11 +68,11 @@
 										</tr>
 										<tr>
 											<th>New Password:</th>
-											<td colspan="3"><input class="password" type="password" name="Your Password" /></td>
+											<td colspan="3"><input class="password" type="password" name="Your Password" placeholder="Enter a new password" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>Re-type Password:</th>
-											<td colspan="3"><input class="password" type="password" name="Your Password"></td>
+											<td colspan="3"><input class="password" type="password" name="Your Password" placeholder="Reenter the password" required="yes" /></td>
 										</tr>
 										<tr>
 											<td><input class="button" type="Submit" name="Submit" value="Submit"></td>
@@ -90,20 +90,20 @@
 									<table>
 										<tr>
 											<th>Your name:</th>
-											<td colspan="3"><input class="text" type="text" name="Your name" /></td>
+											<td colspan="3"><input class="text" type="text" name="Your name" placeholder="Enter your name" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>E-mail:</th>
-											<td colspan="3"><input class="text" type="email" name="Your E-mail" /></td>
+											<td colspan="3"><input class="text" type="email" name="Your E-mail" placeholder="Enter your email" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>Phone No.:</th>
-											<td colspan="3"><input class="text" type="number" name="Phone number" /></td>
+											<td colspan="3"><input class="text" type="number" name="Phone number" placeholder="Enter your phone number" required="yes" /></td>
 										</tr>
 										<tr>
 											<th>Message:</th>
 											<td colspan="3">
-												<textarea rows="13" cols="100"></textarea>
+												<textarea rows="12" cols="50" placeholder="Enter your message here!" required="yes"></textarea><br />
 											</td>
 										</tr>
 										<tr>
